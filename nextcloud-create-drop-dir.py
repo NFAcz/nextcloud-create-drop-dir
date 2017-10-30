@@ -18,7 +18,7 @@ dst_dir = '{0}/{1}_{2}'.format(args.dir, name, uuid.uuid4().hex)
 oc = owncloud.Client('https://{0}'.format(args.server))
 oc.login(args.user, args.password)
 oc.mkdir(dst_dir)
-link_info = oc.share_file_with_link(dst_dir)
+link_info = oc.share_file_with_link(dst_dir, public_upload=True)
 oc.logout()
 
 print('{0} : {1}'.format(name, link_info.get_link()), end='')
