@@ -5,5 +5,5 @@ idna==2.6
 pyocclient==0.4
 requests==2.20.0
 six==1.11.0
-urllib3==1.24.2
+urllib3==1.26.5
 wsgiref==0.1.2
