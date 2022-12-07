@@ -1,5 +1,5 @@
 Unidecode==0.04.21
-certifi==2017.07.27.1
+certifi==2022.12.7
 chardet==3.0.4
 idna==2.6
 pyocclient==0.4
